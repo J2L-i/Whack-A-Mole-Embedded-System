@@ -44,6 +44,8 @@ The template starts out very basic, but might receive additional features over t
     For a multi-configuration generator (typically the case on Windows):
     ```
     cmake -S . -B build
+    cmake --build build --config Release
+
     ```
     Add the .tff file, background and mole .png files to the build/bin folder
     Go to the build/bin folder and run the binary file
