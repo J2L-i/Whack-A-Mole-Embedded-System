@@ -46,8 +46,8 @@ The template starts out very basic, but might receive additional features over t
     cmake -S . -B build
     cmake --build build --config Release
     ```
-
-    Go to the build folder and run the binary file
+    Add the .tff file, background and mole .png files to the build/bin folder
+    Go to the build/bin folder and run the binary file
 1. Enjoy!
 
 
